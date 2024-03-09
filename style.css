@@ -9,6 +9,13 @@
 body {
     background-color: #ae9cff;
 }
+h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    color: #292831;
+    font-weight: rem;
+}
 .container {
     background-color: #ffffff;
     width: 90vmin;

@@ -27,6 +27,17 @@ h2{
     border-radius: 10px;
     box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
 }
+
+
+#search-btn:hover{
+    transition: 0.5s;
+    background-color:#121852;
+
+}
+
+#search-btn{
+    cursor: pointer;
+}
 .search-box {
     width: 100%;
     display: flex;

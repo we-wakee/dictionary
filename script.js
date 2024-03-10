@@ -46,7 +46,6 @@ let inputword = document.getElementById('inp-word').value;
         </div>
         <div class="details">
             <p>${data[0].meanings[0].partOfSpeech}</p>
-            <p>${data[0].phonetics[1].text}</p> 
         </div>
         <p class="word-meaning">
             ${data[0].meanings[0].definitions[0].definition} 

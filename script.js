@@ -49,6 +49,7 @@ let inputword = document.getElementById('inp-word').value;
         </div>
         <p class="word-meaning">
             ${data[0].meanings[0].definitions[0].definition} 
+                 <p>${data[0].phonetics.text}</p> 
         </p>
         <p class="word-ex">${data[0].meanings[0].synonyms[0]}  , 
                     ${data[0].meanings[0].synonyms[1]}</p>`;
